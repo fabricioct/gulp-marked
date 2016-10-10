@@ -10,7 +10,7 @@
   "author": "Fabrício C T <fabriciocotta@gmail.com>",
   "repository": "fabricioct/gulp-marked",
   "dependencies": {
-    "marked": "~0.3.2",
+    "marked": "fabricioct/marked",
     "bufferstreams": "0.0.1",
     "gulp-util": "~2.2.9",
     "lodash": "^2.4.1"
