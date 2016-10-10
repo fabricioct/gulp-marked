@@ -5,10 +5,10 @@
   "keywords": [
     "gulpplugin"
   ],
-  "homepage": "https://github.com/lmtm/gulp-marked",
-  "bugs": "https://github.com/lmtm/gulp-marked/issues",
-  "author": "Thomas Moyse <tmoyse@gmail.com>",
-  "repository": "lmtm/gulp-marked",
+  "homepage": "https://github.com/fabricioct/gulp-marked",
+  "bugs": "https://github.com/fabricioct/gulp-marked/issues",
+  "author": "Fabrício C T <fabriciocotta@gmail.com>",
+  "repository": "fabricioct/gulp-marked",
   "dependencies": {
     "marked": "~0.3.2",
     "bufferstreams": "0.0.1",
