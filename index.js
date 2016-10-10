@@ -55,8 +55,7 @@ function gulpMarked(opt) {
     }
 
     // If the ext doesn't match, pass it through
-    var ext = path.extname(file.path);
-    if('.md' !== ext && '.markdown' !== ext) {
+    if('.md' !== path.extname(file.path)) {
       stream.push(file); done();
       return;
     }
@@ -70,9 +69,6 @@ function gulpMarked(opt) {
           stream.emit('error',
             new gutil.PluginError(PLUGIN_NAME, err, {showStack: true}));
           return done();
-        }
-        else if (cb) {
-          content = cb(err, content);
         }
         file.contents = Buffer(content);
         stream.push(file);
